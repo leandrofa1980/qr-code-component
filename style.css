@@ -52,26 +52,3 @@ body {
   text-align: center;
   padding: 10px 10px 30px 10px;
 }
-
-@media (max-width: 500px) {
-
-  /* .qr-code-background {
-    border-radius: 10px;
-  } */
-
-  /* .qr-code-img {
-    width: 300px;
-    height: 300px;
-    border-radius: 1rem;
-  } */
-/* 
-  .qr-code-title {
-    margin-top: 0px;
-    font-size: 1.5rem;
-  } */
-
-  /* .qr-code-text {
-    margin-top: 10px;
-    padding: 0px;
-  } */
-}
