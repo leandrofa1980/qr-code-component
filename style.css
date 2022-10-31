@@ -6,7 +6,6 @@
 }
 
 body {
-  margin: 0;
   font-family: 'Outfit', sans-serif;
   background-color: hsl(212, 45%, 89%);
   display: flex;
@@ -20,7 +19,6 @@ body {
   border-radius: 1.25rem;
   background-color: hsl(0, 0%, 100%);
   padding: 1rem;
-  max-width: 100%;
   margin: 1.25rem;
 }
 
@@ -29,15 +27,13 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: hsl(0, 0%, 100%);
-  width: 400px;
-  height: 620px;
   border-radius: 30px;
 }
 
 .qr-code-img {
   width: 400px;
   height: 400px;
-  border-radius: 2rem;
+  border-radius: 1rem;
 }
 
 .qr-code-title {
@@ -57,18 +53,16 @@ body {
   width: 25ch;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
 
   .qr-code-background {
-    width: 300px;
-    height: 500px;
     border-radius: 10px;
   }
 
   .qr-code-img {
     width: 300px;
     height: 300px;
-    border-radius: 1.25rem;
+    border-radius: 1rem;
   }
 
   .qr-code-title {
